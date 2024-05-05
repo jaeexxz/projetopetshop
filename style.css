@@ -368,15 +368,15 @@ footer ul h2 {
   }
 
   .cor{
-      width: 20px;
-      height: 20px;
-      border-radius: 50px;
+      width: 10px;
+      height: 10px;
+      border-radius: 20px;
       margin-left: 22%;
       background: transparent;
   }
 }
 /*RESPONSIVIDADE*/
-@media (max-width:800px){
+@media (max-width:600px){
   nav ul li{
       width: 100%;
       float: none;
@@ -389,7 +389,7 @@ footer ul h2 {
   }
   nav ul li:hover ul{
       height: auto;
-      max-height: 200px;
+      max-height: 50px;
   }
   label[for="bt-menu"]{
      display: block; 
@@ -400,9 +400,9 @@ footer ul h2 {
       transition: all 0.5s;
   }
   .cor{
-      width: 20px;
-      height: 20px;
-      border-radius: 50px;
+      width: 10px;
+      height: 10px;
+      border-radius: 25px;
       margin-left: 22%;
       background: transparent;
   }
