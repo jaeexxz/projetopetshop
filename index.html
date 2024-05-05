@@ -1,80 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <!--ICONE DA PAGINA-->
-    <link rel="shortcut icon" href="./img/produto.png">
-    <!--CSS EXTERNO-->
-    <link rel="stylesheet" href="./css/estilo.css">
-    <title>Site Projeto</title>
+    <link rel="shortcut icon" href="./img/VinhoIcon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Vinharia</title>
 </head>
+
 <body>
-    <div id="main">
-        <!--NAVEGAÇÃO DA PAGINA-->
-        <nav>
-            <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Portifólio</a></li>
-                <li><a href="#">Contato</a></li>
 
-                <!--BOTÕES PARA MUDAR A COR DE FUNDO DA PÁGINA-->
-                <div id="cores">
-                    <input type="button" class="cor" onclick="trocar('#87CEFA')"/>
-                    <input type="button" class="cor" onclick="trocar('#00FA9A')"/>
-                    <input type="button" class="cor" onclick="trocar('#DA70D6')"/>
-                </div>
-            </ul>
+    <div class="card-mainpage">
+        <img src="./img/ECORTLGD.jpeg" alt="imagem" />
+    </div>
+
+    <div class="container">
+        <h1>Seja bem-vindo ao PetShop Eco-R!</h1>
+        <p>.</p>
+        <p class="offer-text">
+            Obtenha <span class="highlight">10% off + frete grátis</span> em sua primeira compra no site e app da PetEco-R.
+        </p>
+        <p class="offer-text">
+            Aplique o cupom <span class="highlight">PATINHA10</span> no pagamento.
+        </p>
+        <p>
+            Transformando o amor pelos animais em momentos de felicidade e bem-estar. Bem-vindo ao nosso pet shop, onde cada patinha tem seu lugar especial!
+        </p>
+    </div>
+
+    <header>
+        <a href="index.html"><img src="./img/pugiconproj.png">
+            <h2 class="logo">PetShop Eco-R</h2>
+        </a>
+        <nav class="navegacao">
+            <a href="index.html">Home</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+            <a href="login.html"><button class="loginbtn">Login</button></a>
         </nav>
+    </header>
 
-        <!--SESSÃO SOBRE-->
+    <footer>
+        <div class="footer__main">
+            <a href="index.html" class="footer__logo"><img src="./img/pugiconproj.png"></a>
+            <div class="footer__icons">
+            </div>
+        </div>
+
+        <ul>
+            <li>
+                <h2>Contato</h2>
+            </li>
+            <li><i class="fa-solid fa-phone"></i>+96 96969-6969</li>
+            <li><i class="fa-solid fa-envelope"></i>petfshopecor@gmail.com</li>
+        </ul>
+        <ul>
+            <li>
+                <h2><i class="fa-solid fa-location-dot"></i>Endereço</h2>
+            </li>
+            <li>Av. Paulista, 7130</li>
+            <li>Bela Vista, São Paulo - SP, 07130-000</li>
+        </ul>
+        <p class="copyright">Desenvolved by Lucas, João e Otho</p>
+    </footer>
+
+    <!--
+    <div id="main">
         <section id="sobre">
             <h1>Sobre</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam perspiciatis nesciunt, corrupti suscipit, ullam impedit molestiae, necessitatibus iste vel quas architecto alias natus nam laboriosam reiciendis reprehenderit minus nihil molestias!</p>
+            <p></p>
 
         </section>
-        <!--SESSÃO PORTIFOLIO-->
-        <section  id="portifolio">
-            <h1>Portifólio</h1>
-            
-            <!--CARDS-->
 
-            <!--Card-1-->
+        <section id="portifolio">
+            <h1>Portifólio</h1>
+
             <div class="card">
-                <img src="" alt="imagem"/>
+                <img src="./img/produto.png" alt="imagem" />
                 <h3>Produto 1</h3>
                 <p>Descrição do Produto 1</p>
                 <button>R$ 100,00</button>
             </div>
-            <!--Card-2-->
+
             <div class="card">
-                <img src="" alt="imagem"/>
+                <img src="./img/produto.png" alt="imagem" />
                 <h3>Produto 2</h3>
                 <p>Descrição do Produto 2</p>
                 <button>R$ 100,00</button>
             </div>
-            <!--Card--->
+
             <div class="card">
-                <img src="" alt="imagem"/>
+                <img src="./img/produto.png" alt="imagem" />
                 <h3>Produto 3</h3>
                 <p>Descrição do Produto 3</p>
                 <button>R$ 100,00</button>
             </div>
         </section>
-         <!--SESSÃO CONTATO-->
+
         <section id="contato">
             <h1>Contato</h1>
             <h2>Telefone:(11)11111-1111</h2>
-
         </section>
-        <!--RODAPÉ DA PÁGINA-->
         <footer>
             <h5>@2024-todos os direitos reservados.</h5>
         </footer>
-
     </div>
-    
-<!--JAVASCRIPT EXTERNO-->
+-->
     <script src="script.js"></script>
 </body>
+
 </html>
